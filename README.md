@@ -41,7 +41,7 @@ When a user enters the chat, it wil be presented with a captcha to resolve. If c
 that is tied to the main group.
 example of command `#report you should not say that` or `you should not say that, i am #reporting you`
 
-`#warn` reply to a users message and it will warn them. 3 warnings and user gets banned and warning count reset.
+`#warn` reply to a users message and it will warn them. 3 warnings and user gets banned and warning count reset. this will also forward the msg to replied to. if you want to make a note withm more info you coul use it this way `#warn You should not say this , this the the 3rd time in a row bro` or `ok f**** this shit, you get a #warn for being an asshole again`
 
 `#dwarn` reply to a users message and it will take decrement 1 warn
 

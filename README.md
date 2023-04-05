@@ -68,7 +68,7 @@ Note that commands are not case sensitive.
 Quick steps: 
 1. add bot to group
 2. make bot admin
-3. set logs by going in private message with the bot
+3. set logs by going in private message with the bot ( no need for this anymore , defaults to HEXterminator Actions grup id)
 
 Nice to have in the future: 
 `!setRHgroup` - command that will make the group known to the bot as a RH one. will only be possible to set 

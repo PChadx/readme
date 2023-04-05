@@ -35,6 +35,8 @@ Example of command : `!loki 1 month now go ahead and think about what you were s
 
 `!captcha Hexagons` - This sets the captcha to the Hexagons one.
 
+`!captcha NONE` - This will make the bot ignore newcomers and not show them captcha nor add them in candidates list. useful for when other bots do that. (default)
+
 When a user enters the chat, it wil be presented with a captcha to resolve. If captcha resolved succesfully does not happen in 60 seconds user will be banned. If resolved succesfully captcha message will be deleted and user greeted. 
 
 `#report` reply to a users message and it will forward the message and create a report card in the logs group 
@@ -67,7 +69,7 @@ Quick steps:
 1. add bot to group
 2. make bot admin
 3. set logs by going in private message with the bot
-`------------------------------------------`
+
 Nice to have in the future: 
 `!setRHgroup` - command that will make the group known to the bot as a RH one. will only be possible to set 
 if the admin is an admin in one of the RH groups. as an initial seed:
